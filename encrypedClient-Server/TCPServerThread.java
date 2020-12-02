@@ -57,7 +57,6 @@ public class TCPServerThread extends Thread {
             byte[] key = keyAgreement.generateSecret();
             //Send initial vector to client
             out.println(Base64.getEncoder().encodeToString(IV));
-            System.out.println(IV);
             //Start reading client input
             String inputLine; //The next line of input from the client
             while ((inputLine = in.readLine()) != null) {//Read next line of input from client
