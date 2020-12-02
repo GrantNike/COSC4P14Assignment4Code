@@ -17,7 +17,7 @@ Dec 6th
 Server class begins listening for a client connection on given port, if no port is given default is 4000. 
 Once connected the client and server will perform a Diffie-Hellman key exchange to produce a shared secret key. The Server
 initiates the key exchange.The Server will then listen for AES encrypted strings from the client, decrypt them, and send back
-the same String in all uppercase and AES encrypted.
+the same String in all uppercase and AES encrypted
 */
 public class Server {
     public static void main(String[] args) throws Exception {
