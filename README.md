@@ -1,8 +1,8 @@
 # Instructions for running code 
-#Compile and Run in same line
+# Compile and Run in same line
 1. Compile and run server file including the optional argument like so: "java Server.java (portNumber)". The default port number with no arguments is 4000.
 2. Then compile and run the client file where both arguments are required like so: "java client.java (hostName) (portNumber)"
-#Compile first and then Run
+# Compile first and then Run
 1. Compile server with command: "javac Server.java" then compile client with command: "javac client.java"
 2. Run server file including the optional argument like so: "java Server (portNumber)". The default port number with no arguments is 4000.
 3. Then Run the client file in a separate terminal, where both arguments are required like so: "java client (hostName) (portNumber)".
